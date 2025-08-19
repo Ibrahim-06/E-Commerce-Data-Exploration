@@ -18,15 +18,19 @@ transaction history.
 ## 📂 Project Structure
 
 ```
-├── Data/
-│   └── data.csv
+├── Models/
+│   ├── kMeans_model.pkl
+│   └── rfm_data.pkl
+├── Scaler/
+│   └── scaler.pk
+├── App/
+│   └── app.py      
 ├── Notebook/
 │   └── E-Commerce.ipynb
-├── App/
-│   └── app.py 
-├── README.txt
-└── Streamlit (1).png
-└── Streamlit (2).png
+├── README.md
+├── Streamlit (1).png
+├── Streamlit (2).png
+└── requirements.txt
 ```
 
 ---
