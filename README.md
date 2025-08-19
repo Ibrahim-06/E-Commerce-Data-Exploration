@@ -1,8 +1,8 @@
-# 🛒 ECommerce Data Exploration
+# 🛒 E-Commerce Data Exploration
 
-## [Python]
-## [Libraries]
-## [Status]
+![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
+![Libraries](https://img.shields.io/badge/Libraries-pandas%2C%20numpy%2C%20matplotlib%2C%20seaborn%2C%20joblib%2C%20streamlit-orange)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 ---
 
