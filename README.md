@@ -1,33 +1,37 @@
-🛒 ECommerce Data Exploration
+# 🛒 ECommerce Data Exploration
 
-[Python]
-[Libraries]
-[Status]
+## [Python]
+## [Libraries]
+## [Status]
 
-📌 Overview
+---
+
+## 📌 Overview
 
 This project focuses on exploring and analyzing E-Commerce data to
 identify patterns, trends, and customer behavior.
 The dataset includes customer information, order details, and
 transaction history.
 
-------------------------------------------------------------------------
+---
 
-📂 Project Structure
+## 📂 Project Structure
 
-    ├── Data/
-    │   └── data.csv
-    ├── Notebook/
-    │   └── E-Commerce.ipynb
-    ├── App/
-    │   └── app.py 
-    ├── README.txt
-    └── Streamlit (1).png
-    └── Streamlit (2).png
+```
+├── Data/
+│   └── data.csv
+├── Notebook/
+│   └── E-Commerce.ipynb
+├── App/
+│   └── app.py 
+├── README.txt
+└── Streamlit (1).png
+└── Streamlit (2).png
+```
 
-------------------------------------------------------------------------
+---
 
-🛠️ Features
+## 🛠️ Features
 
 -   Data Cleaning (missing values, duplicates, outliers)
 -   Exploratory Data Analysis (EDA) with Matplotlib & Seaborn
@@ -36,73 +40,84 @@ transaction history.
 -   Top Products & Revenue Contribution visualization
 -   Interactive Dashboard with Streamlit
 
-------------------------------------------------------------------------
+---
 
-📊 Data Preprocessing
+## 📊 Data Preprocessing
 
 -   Removed duplicates and invalid records
 -   Converted dates into proper datetime format
 -   Feature extraction (e.g., revenue = quantity × price)
 -   Outlier detection and handling
 
-------------------------------------------------------------------------
+---
 
-📈 Insights & Analysis
+## 📈 Insights & Analysis
 
 -   Monthly and daily sales distribution
 -   Best-selling products and categories
 -   Customer purchase frequency & retention
 -   Seasonal demand patterns
 
-------------------------------------------------------------------------
+---
 
-🚀 Installation & Usage
+## 📹 StreamLit (UI)
+<img width="3820" height="2128" alt="Streamlit (1)" src="https://github.com/user-attachments/assets/d779ea85-4f17-49ff-ab0c-3b7542d10a84" />
+<img width="3820" height="2126" alt="Streamlit (2)" src="https://github.com/user-attachments/assets/d3c2d7d2-058b-4b25-9870-99cc8516f197" />
 
-1️⃣ Clone the Repository
+---
+## 🚀 Installation & Usage
 
-    git clone https://github.com/ibrahim-06/E-Commerce-Data-Exploration.git
-    cd E-Commerce-Data-Exploration
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/ibrahim-06/E-Commerce-Data-Exploration.git
+cd E-Commerce-Data-Exploration
+```
 
-2️⃣ Install Dependencies
+### 2️⃣ Install Dependencies
+```bash
+pip install -r requirements.txt
+```
 
-    pip install -r requirements.txt
+### 3️⃣ Run Jupyter Notebook
+```bash
+jupyter notebook Notebook/E-Commerce.ipynb
+```
 
-3️⃣ Run Jupyter Notebook
+### 4️⃣ Run Streamlit Dashboard
+```bash
+streamlit run App/app.py
+```
 
-    jupyter notebook Notebook/E-Commerce.ipynb
+---
 
-4️⃣ Run Streamlit Dashboard
-
-    streamlit run App/app.py
-
-------------------------------------------------------------------------
-
-📦 Saved Artifacts
+## 📦 Saved Artifacts
 
 -   Cleaned Dataset
 -   Exploration Notebook
 -   Streamlit Dashboard
 
-------------------------------------------------------------------------
+---
 
-📚 Requirements
+## 📚 Requirements
 
-    pandas
-    numpy
-    matplotlib
-    seaborn
-    joblib
-    streamlit
+```
+pandas
+numpy
+matplotlib
+seaborn
+joblib
+streamlit
+```
 
-------------------------------------------------------------------------
+---
 
 ## 👤 Author
 **Ibrahim Mohamed**  
 📧 Email: ibrahim.06.dev@gmail.com  
-🔗 LinkedIn: [[Ibrahim Mohamed](https://www.linkedin.com/in/ibrahim-mohamed-211-)]
+🔗 LinkedIn: [Ibrahim Mohamed](https://www.linkedin.com/in/ibrahim-mohamed-211-)
 
-------------------------------------------------------------------------
+---
 
-📜 License
+## 📜 License
 
 This project is licensed under the MIT License.
